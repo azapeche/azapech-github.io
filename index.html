@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andy Zapechelnyuk's Home Page</title>
+    <style>
+        body {
+            margin: 0; /* Remove default margin */
+            padding: 0;
+            box-sizing: border-box;        
+            font-family: 'Lato', sans-serif;  
+            font-weight: 300; /* Normal */
+            line-height: 1.2;
+        }      
+        /* Enable smooth scrolling behavior */
+        html {
+            scroll-behavior: smooth;
+        }
+      h2 {
+            font-weight: 300; /* Removes bold styling */
+            font-family: 'Lato', sans-serif;
+            font-weight: 300; /* Normal */
+            font-size: 28px;
+            color: #333;
+        }
+        /* Navigation bar styling */
+        nav {
+            background-color: #333;
+            padding: 0em 0;
+            position: fixed; /* Keeps it visible at top while scrolling */
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000; /* Keep it above sections */
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #00bcd4;
+        }
+
+        /* Section styling */
+        section {
+             padding: 53px 40px 40px; /*Extra top padding for navbar */
+            text-align: left;
+        }
+
+        #home {
+            padding: 53px 0px 0px; /*Extra top padding for navbar */
+            background-color: white;
+        }
+
+        #wp {
+            background-color: lightgrey;
+        }
+
+        #pub {
+            background-color: white;
+        }
+
+        #gr {
+            background-color: lightgrey;
+        }
+
+        #teach {
+            background-color: white;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: 50px auto;
+        }
+
+        td {
+            border: none;
+            padding: 0px;
+            line-height: 1.4; 
+            vertical-align: top;
+        }
+
+        .merged {
+            vertical-align: middle;
+            text-align: left;
+            font-size: 30px;
+        }
+
+        .left-text {
+            text-align: left;
+            white-space: pre-line; /* Allows multiline text */
+		
+        }
+
+        .img0 {
+            width: 100%;     /* Full width */
+            height: auto;    /* Keep aspect ratio */
+            display: block;  /* Remove extra spacing below image */
+        }
+
+        .img1 {
+            width: 100px;  /* You can adjust size */
+            height: auto;
+            margin: 10px auto;
+            display: block;    
+        }
+
+.padded {
+      padding-left: 40px;   /* space on the left */
+      padding-right: 40px;    }
+.smaller {
+      font-size: 14px;       /* smaller font size */
+      font-style: italic;    /* italicized text */
+      margin-top: 0;
+      margin-bottom: 0;
+}
+
+  /* Remove default bullets and spacing */
+  .triangle-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .triangle-list li {
+    position: relative;
+    padding-left: 22px;      /* space for the triangle */
+    margin: 8px 0;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  /* The triangle */
+  .triangle-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.4em;
+    width: 0;
+    height: 0;
+    /* Create a right-pointing triangle with borders */
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 7px solid currentColor; /* triangle color follows text color */
+  }
+
+  /* Example: change color for a specific item */
+  .accent {
+    color: #0077cc;
+  }
+</style>
+</head>
+<body>
+    <!-- Page sections -->
+    <section id="home">
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#wp">Working Papers</a></li>
+            <li><a href="#pub">Publications</a></li>
+            <li><a href="#gr">Grants</a></li>
+            <li><a href="#teach">Teaching</a></li>
+        </ul>
+    </nav>
+    <img src="ed.png" alt="Edinburgh" class="img0">
+    <table>
+        <tr>
+            <td><img src="andy.png" alt="Image" class="img1"></td>
+            <td colspan="2" class="merged">Andriy (Andy) Zapechelnyuk</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="left-text">School of Economics<br>University of Edinburgh<br>31 Buccleuch Place<br>Edinburgh EH8 9JT<br>United Kingdom</td>
+            <td class="left-text">Location: 31 Buccleuch Place, Room 2.01<br>Email: azapech (ατ) gmail.com<br>Phone: Microsoft Teams</td>
+        </tr>
+    </table>
+
+
+<p class="padded">I am a Professor of Economics at the University of Edinburgh. I serve as an Associate Editor for Econometrica and Economic Theory/ETB. My research interests lie in the field of microeconomic theory and applications, focusing on communication and information design, optimal contracts, and robust decision theory.</p>
+
+ 
+
+<p class="padded">Short Bio: I got a PhD from Stony Brook University in 2005. Before landing at Edinburgh in 2022, I spent some time as a researcher at the Center for the Study of Rationality (Hebrew University of Jerusalem) and the Hausdorff Center for Mathematics (University of Bonn), and I have taught at Kyiv School of Economics, Queen Mary University of London, University of Glasgow, and University of St Andrews.</p>
+
+<p class="padded">Curriculum Vitae</p>
+
+<p class="padded">Google Scholar profile</p>
+
+</section>
+
+    <section id="wp">
+        <h2>Working Papers</h2>
+
+ <ul class="triangle-list">
+    <li> Disclosure of causal vs. correlational information in markets with correlation neglect (with Dimitri Migrow)</li>
+ </ul>
+<p>We address the question of whether regulators should disclose consumer traits in competitive risk-sharing markets, such as insurance or credit markets, when consumers suffer from correlation neglect. We find that disclosure improves welfare if the trait has a strong causal effect on consumer's risk. However, when correlation plays a dominant role, disclosure of the trait leads to mispricing and lowers market participation. Our results highlight that causal effects support transparency, while correlational effects may justify privacy protection.
+</p>
+
+ <ul class="triangle-list">
+    <li> On monotone persuasion (with Anton Kolotilin and Hongyi Li)</li>
+ </ul>
+<p>We study monotone persuasion in the linear case, where posterior distributions over states are summarized by their mean. We solve the two leading cases where optimal unrestricted signals can be nonmonotone. First, if the objective is s-shaped and the state is discrete, then optimal monotone signals are upper censorship, whereas optimal unrestricted signals may require randomization. Second, if the objective is m-shaped and the state is continuous, then optimal monotone signals are interval disclosure, whereas optimal unrestricted signals may require nonmonotone pooling. We illustrate our results with an application to media censorship.</p>
+
+
+ <ul class="triangle-list">
+    <li> Optimal inquiry (with Tai-Wei Hu)</li>
+ </ul>
+<p>A decision maker acquires and processes information about an uncertain state of nature by an inquiry: a contingent sequence of questions to be asked before a decision is reached. Inquiry is a costly activity, with the cost proportional to its length. We characterize optimal inquiries and uncover two behavioral implications associated with costly inquiry: attention span reduction (i.e., favoring shorter inquiries by focusing on a subset of decisions and assigning them different priorities) and confirmation bias (i.e., seeking evidence through inquiry to confirm a prior guess of which decisions are optimal). This framework can be used to understand prominent cognitive biases, such as framing and search satisficing in healthcare and tunnel vision in criminal investigation.
+</p>
+
+ <ul class="triangle-list">
+    <li>  Disclosure in insurance markets with limited screening (with Dimitri Migrow)</li>
+ </ul>
+<p>We investigate the impact of information disclosure, via a statistical instrument, on consumer welfare in competitive insurance markets with limited screening. We demonstrate that, under natural constraints on information disclosure, no statistical instrument is "safe" to implement. There always exists a nonnegligible set of prior beliefs about the risk types of consumers, compatible with an observed market situation, under which additional information disclosure strictly worsens welfare.
+</p>
+
+ <ul class="triangle-list">
+    <li> Fair hiring procedures (with Karl Schlag)<br>
+[previously titled "Fair sequential search"; absorbed an earlier working paper "Value of information when searching for a secretary"]</li>
+ </ul>
+<p>While much is known about statistical and behavioral discrimination in hiring decisions, little attention has been given to how the organization of the interviewing process affects fairness. Using a sequential search model, we define fairness through two principles—equal treatment of equals and invariance under reordering—and fully characterize the hiring procedures that satisfy them. We show that such procedures have a simple structure and can be preregistered with a regulator to ensure fair treatment of applicants. Our analysis reveals that several common hiring practices are unfair according to these principles of fairness.
+</p>
+
+ <ul class="triangle-list">
+    <li> Persuasion under insufficient reason (with Anton Kolotilin) [Slides]</li>
+ </ul>
+<p>A sender designs how to disclose information about the state of the world to persuade a receiver to accept a proposal. The sender is ignorant about both the receiver's type and his risk attitude. The sender applies the principle of maximum entropy to resolve her ignorance. We show that the maximum-entropy utility is risk neutral if nothing is known about the agent's utility, and it is CARA if the average utility is known. Furthermore, the optimal signal is either fully revealing or completely uninformative if nothing is known about the distribution of the agent's type, or if its mean is known; the optimal signal is a censorship if the mean and variance are known. To derive our results, we propose a novel representation of preference over lotteries.
+</p>
+
+ <ul class="triangle-list">
+    <li> Disclosure of causal vs. correlational information in markets with correlation neglect (with Dimitri Migrow)</li>
+ </ul>
+<p>We address the question of whether regulators should disclose consumer traits in competitive risk-sharing markets, such as insurance or credit markets, when consumers suffer from correlation neglect. We find that disclosure improves welfare if the trait has a strong causal effect on consumer's risk. However, when correlation plays a dominant role, disclosure of the trait leads to mispricing and lowers market participation. Our results highlight that causal effects support transparency, while correlational effects may justify privacy protection.
+</p>
+
+ <ul class="triangle-list">
+    <li> Bargaining under incomplete information with the help of delay (with Karl Schlag)</li>
+ </ul>
+<p>We study bargaining under incomplete information, with applications to trade and to provision of public good. In our setting, agents not only agree on how they share their output, but also on how much output they produce. We are interested in bargaining rules that do not depend on priors. We find a unique rule that satisfies a set of axioms. Under this rule, the higher the surplus, the more output is produced. Moreover, the produced output is shared as in the Nash bargaining solution. We present a dynamic protocol that implements this rule for any priors. Heterogeneous discount factors and degrees of risk aversion can be included.
+</p>
+
+<ul class="triangle-list">
+    <li> Competing e-commerce intermediaries (with Alexander Matros)</li>
+ </ul>
+<p>We consider a model where two e-commerce platforms, such as internet auctions, compete for sellers who are heterogeneous in their time preferences. Contrary to the literature which argues that if two platforms coexist in equilibrium, then the “law of one price” must hold, we demonstrate that two platforms may set different prices and have positive equilibrium profits by exploiting heterogeneity of sellers' time preferences. In such an equilibrium less patient sellers choose the more popular, but more expensive, platform, while more patient sellers prefer the less popular and cheaper one.
+</p>
+    </section>
+
+    <section id="pub">
+        <h2>Publications</h2>
+<ul class="triangle-list">
+    <li> Persuasion meets delegation (with Anton Kolotilin)<br>
+Econometrica 93 (2025), 195-228 [Open Access]</li>
+
+
+<li>Are there "Ratatouille" restaurants? On anticorrelation of food quality and hygiene (with Hisayuki Yoshimoto)<br>
+Quarterly Review of Economics and Finance 90 (2024), 101939 [Open Access]</li>
+<li>Compromise, don't optimize: Generalizing perfect Bayesian equilibrium to allow for ambiguity (with Karl Schlag)<br>
+Journal of Political Economy: Microeconomics 2 (2024), 77-128<br>
+<p class="smaller">
+[an earlier version titled "Compromise, don't optimize: A prior-free alternative to perfect Bayesian equilibrium"]</p></li>
+
+<li>Constructive vs toxic argumentation in debates (with Tymofiy Mylovanov)<br>American Economic Journal: Microeconomics 16 (2024), 262-292
+<p class="smaller">
+[merges two earlier working papers, A model of debates: Moderation vs free speech and Sequential obfuscation and toxic argumentation]</p></li>
+
+ 
+<li>On the equivalence of information design by uninformed and informed principals<br>Economic Theory 76 (2023), 1051-1067 [doi] [Open Access]</li>
+
+ </ul>
+
+
+    </section>
+
+    <section id="gr">
+        <h2>Contact</h2>
+        <p>Get in touch with us today!</p>
+    </section>
+
+    <section id="teach">
+        <h2>Contact</h2>
+        <p>Get in touch with us today!</p>
+    </section>
+
+</body>
+</body>
+</html>
