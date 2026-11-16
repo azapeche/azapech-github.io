@@ -196,6 +196,24 @@ a:hover {
   .accent {
     color: #0077cc;
   }
+
+  /* Phones: simple single-column layout */
+  @media (max-width: 600px) {
+    nav { position: static; }
+    nav ul { flex-wrap: wrap; gap: 6px 18px; margin: 0; padding: 12px 16px; }
+    nav ul li { margin: 0; }
+    nav ul li a { font-size: 16px; white-space: nowrap; }
+
+    #home { padding-top: 0; }
+    section { padding: 24px 20px; }
+    .padded { padding-left: 20px; padding-right: 20px; }
+
+    table, tbody, tr, td { display: block; width: auto; }
+    table { margin: 30px 20px; }
+    .img1 { margin: 0 0 12px; }
+    .merged { font-size: 26px; margin-bottom: 12px; }
+    .left-text { margin-bottom: 12px; }
+  }
 </style>
 </head>
 <body>
